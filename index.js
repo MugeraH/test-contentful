@@ -16,6 +16,7 @@ client.getEntries()
 
   for(i=0; i<=data.length-1;i++){
     console.log(response.items[i].fields.productName)
+    console.log(response.items[i].fields.retailerDetails)
   }
 
   
